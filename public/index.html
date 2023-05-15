@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Depormaniacos</title>
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+<div class="contenedor-transparente">
+<body>
+    <h1>Depormaniacos</h1>
+    <div id="nick">
+        <h2>Escribe tu Alias</h2>
+        <input id="nicknameInput" type="text">
+        <button id="sendButton">Jugar</button>
+        <p id="validation"></p>
+    </div>
+    <div id="enespera" style="display:none">
+        <h2>Te has registrado correctamente.</h2>
+        <h3>La partida comienza en <span id="tempo1">10</span> s.</h3>
+        <h2>Los Jugadores:</h2>
+        <div id="jugadores">
+        </div>
+    </div>
+    <div id="game" style="display:none">
+        <h2>Tiempo restante: <span id="tempo2">15</span> s</h2>
+        <h3 id ="pregunta" class="contenedor-transparente">Pregunta:</h3>
+        <div class="answers">
+            <div class="box">Respostuesta 1</div>
+            <div class="box">Respostuesta  2</div>
+            <div class="box">Respostuesta  3</div>
+            <div class="box">Respostuesta  4</div>
+        </div>
+    </div>
+    <h2 id="result" style="display:none">¡Se acabó la partida! ¡El jugador ganador es <span id="winner"></span> !</h2>
+    <div id="ranking" style="display:none">
+        <h2><u>Podium!!!Que barbaridad</u></h2>
+        <ol id="top">
+        </ol>
+    </div>
+    <div id="paneldeadmin" style="display:none">
+        <h2>Opciones de Administrador</h2>
+        <div id="trato">
+            Temática
+            <select id="propPreguntes">
+                <option value="champions" selected>Champions League</option>
+                <option value="formula1">Formula 1</option>
+                <option value="motogp">Moto Gp</option>
+                <option value="eligeunaopcion">Champions League</option>
+            </select>
+        </div>
+        <br>
+        <button id="startgame">Iniciar la Partida</button>
+        <button id="closegame" style="display:none">Finalizar la Partida</button>
+    </div>
+</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.6.0/socket.io.min.js"></script>
+    <script src="main.js" ></script> 
+</body>
+</html>

@@ -1,0 +1,111 @@
+[
+    {
+        "numeroPregunta": 1,
+        "pregunta": "¿Qué piloto tiene el récord de más títulos mundiales en Fórmula 1?",
+        "respuestas": [
+            "Ayrton Senna",
+            "Michael Schumacher",
+            "Lewis Hamilton",
+            "Alain Prost"
+        ],
+        "respostaCorrecta": 2
+    },
+    {
+        "numeroPregunta": 2,
+        "pregunta": "¿Qué escudería ha ganado más campeonatos de constructores en la Fórmula 1?",
+        "respuestas": [
+            "Ferrari",
+            "Mercedes",
+            "McLaren",
+            "Red Bull Racing"
+        ],
+        "respostaCorrecta": 0
+    },
+    {
+        "numeroPregunta": 3,
+        "pregunta": "¿Cuál es la nacionalidad del piloto Ayrton Senna?",
+        "respuestas": [
+            "Británico",
+            "Alemán",
+            "Brasileño",
+            "Francés"
+        ],
+        "respostaCorrecta": 2
+    },
+    {
+        "numeroPregunta": 4,
+        "pregunta": "¿En qué país se encuentra el circuito de Mónaco?",
+        "respuestas": [
+            "Italia",
+            "Francia",
+            "España",
+            "Mónaco"
+        ],
+        "respostaCorrecta": 3
+    },
+    {
+        "numeroPregunta": 5,
+        "pregunta": "¿Cuál fue el primer equipo en introducir el alerón trasero en la Fórmula 1?",
+        "respuestas": [
+            "Ferrari",
+            "Lotus",
+            "McLaren",
+            "Brabham"
+        ],
+        "respostaCorrecta": 1
+    },
+    {
+        "numeroPregunta": 6,
+        "pregunta": "¿Qué piloto tiene el récord de la vuelta más rápida en la historia de la Fórmula 1?",
+        "respuestas": [
+            "Kimi Raikkonen",
+            "Lewis Hamilton",
+            "Sebastian Vettel",
+            "Juan Manuel Fangio"
+        ],
+        "respostaCorrecta": 0
+    },
+    {
+        "numeroPregunta": 7,
+        "pregunta": "¿Qué piloto tiene el récord de más victorias consecutivas en una temporada?",
+        "respuestas": [
+            "Ayrton Senna",
+            "Nigel Mansell",
+            "Michael Schumacher",
+            "Sebastian Vettel"
+        ],
+        "respostaCorrecta": 2
+    },
+    {
+        "numeroPregunta": 8,
+        "pregunta": "¿Cuál es el circuito más antiguo de la Fórmula 1?",
+        "respuestas": [
+            "Spa-Francorchamps",
+            "Monza",
+            "Silverstone",
+            "Nürburgring"
+        ],
+        "respostaCorrecta": 1
+    },{
+        "numeroPregunta": 9,
+        "pregunta": "¿Cuál es el circuito más corto de la temporada de Fórmula 1?",
+        "respuestas": [
+            "Hungaroring",
+            "Circuit de Barcelona-Catalunya",
+            "Yas Marina Circuit",
+            "Circuito de Mónaco"
+        ],
+        "respostaCorrecta": 3
+    },
+    {
+        "numeroPregunta": 10,
+        "pregunta": "¿Cuál es el piloto con más poles position en la historia de la Fórmula 1?",
+        "respuestas": [
+            "Lewis Hamilton",
+            "Michael Schumacher",
+            "Ayrton Senna",
+            "Sebastian Vettel"
+        ],
+        "respostaCorrecta": 0
+    }
+]

@@ -1,0 +1,111 @@
+[
+    {
+        "numeroPregunta": 1,
+        "pregunta": "¿Qué piloto tiene el récord de más títulos mundiales en MotoGP?",
+        "respuestas": [
+            "Valentino Rossi",
+            "Marc Márquez",
+            "Giacomo Agostini",
+            "Mick Doohan"
+        ],
+        "respostaCorrecta": 2
+    },
+    {
+        "numeroPregunta": 2,
+        "pregunta": "¿En qué país se encuentra el circuito de Mugello?",
+        "respuestas": [
+            "Italia",
+            "España",
+            "Francia",
+            "Alemania"
+        ],
+        "respostaCorrecta": 0
+    },
+    {
+        "numeroPregunta": 3,
+        "pregunta": "¿Cuál es la máxima categoría dentro del Campeonato Mundial de Motociclismo?",
+        "respuestas": [
+            "Moto3",
+            "Moto2",
+            "MotoGP",
+            "Superbike"
+        ],
+        "respostaCorrecta": 2
+    },
+    {
+        "numeroPregunta": 4,
+        "pregunta": "¿Qué fabricante de motocicletas ha ganado más campeonatos de constructores en MotoGP?",
+        "respuestas": [
+            "Ducati",
+            "Honda",
+            "Yamaha",
+            "Suzuki"
+        ],
+        "respostaCorrecta": 1
+    },
+    {
+        "numeroPregunta": 5,
+        "pregunta": "¿Qué piloto español ha ganado cinco campeonatos de MotoGP consecutivos?",
+        "respuestas": [
+            "Jorge Lorenzo",
+            "Marc Márquez",
+            "Dani Pedrosa",
+            "Álvaro Bautista"
+        ],
+        "respostaCorrecta": 1
+    },{
+        "numeroPregunta": 6,
+        "pregunta": "¿Qué piloto italiano ha sido conocido como 'The Doctor'?",
+        "respuestas": [
+            "Valentino Rossi",
+            "Andrea Dovizioso",
+            "Franco Morbidelli",
+            "Marco Melandri"
+        ],
+        "respostaCorrecta": 0
+    },
+    {
+        "numeroPregunta": 7,
+        "pregunta": "¿En qué año comenzó el Campeonato Mundial de Motociclismo?",
+        "respuestas": [
+            "1949",
+            "1950",
+            "1955",
+            "1960"
+        ],
+        "respostaCorrecta": 0
+    },
+    {
+        "numeroPregunta": 8,
+        "pregunta": "¿Cuál es el circuito más antiguo que todavía forma parte del calendario de MotoGP?",
+        "respuestas": [
+            "Circuit de Barcelona-Catalunya",
+            "Circuit de Spa-Francorchamps",
+            "TT Circuit Assen",
+            "Autodromo Nazionale Monza"
+        ],
+        "respostaCorrecta": 2
+    },
+    {
+        "numeroPregunta": 9,
+        "pregunta": "¿Qué piloto australiano fue campeón del mundo de MotoGP en 2007?",
+        "respuestas": [
+            "Mick Doohan",
+            "Casey Stoner",
+            "Wayne Gardner",
+            "Troy Bayliss"
+        ],
+        "respostaCorrecta": 1
+    },
+    {
+        "numeroPregunta": 10,
+        "pregunta": "¿Cuál de estos fabricantes no ha ganado un campeonato de constructores en MotoGP?",
+        "respuestas": [
+            "Aprilia",
+            "KTM",
+            "Kawasaki",
+            "Suzuki"
+        ],
+        "respostaCorrecta": 2
+    }
+]
