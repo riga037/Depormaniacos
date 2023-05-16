@@ -42,11 +42,10 @@ socket.on("score", (data) => {
 
   
   
-  socket.on("register", (data) => {
-    preguntes = require(`./public/${data}.json`);
-    loop = setInterval(updateTimers, 1000);
-  });
-  
+socket.on("register", data => {
+  [preguntes, loop] = [require(`./public/${data}.json`), setInterval(updateTimers, 1000)];
+});
+
 socket.on("restart", (data) => {
   clearInterval(loop);
   usuarios = [];
