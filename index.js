@@ -35,12 +35,11 @@ io.on("connection", (socket) => {
   });
   
   
-  socket.on("score", (data) => {
-    const usuario = puntos.find((punto) => punto.nom === data.name);
-    if (usuario) {
-      usuario.punts += parseInt(data.puntos);
-    }
-  });
+socket.on("score", (data) => {
+  const usuario = puntos.find(punto => punto.nom === data.name);
+  if (usuario) usuario.punts += parseInt(data.puntos);
+});
+
   
   
   socket.on("register", (data) => {
@@ -48,20 +47,19 @@ io.on("connection", (socket) => {
     loop = setInterval(updateTimers, 1000);
   });
   
-  socket.on("restart", (data) => {
-    clearInterval(loop);
-    usuarios = [];
-    puntos = [];
-    time1 = 10;
-    time2 = 15;
-    quest = -1;
-    io.emit("reestablish", true);
-  });
+socket.on("restart", (data) => {
+  clearInterval(loop);
+  usuarios = [];
+  puntos = [];
+  time1 = 10;
+  time2 = 15;
+  quest = -1;
+  io.emit("reestablish", true);
 });
 
 function updateTimers() {
   if (time1 > 0) {
-    puntos = usuarios.map((usuario) => ({ nom: usuario, punts: 0 }));
+    puntos = usuarios.map(usuario => ({ nom: usuario, punts: 0 }));
     time1--;
     io.sockets.emit('time1', time1);
   } else {
@@ -73,17 +71,20 @@ function updateTimers() {
     } else if (time2 > 0) {
       time2--;
       io.sockets.emit('time2', time2);
-    } else if (time2 === 0 && quest < preguntes.length - 1) {
-      time2 = 10;
-      puntos.sort((a, b) => b.punts - a.punts);
-      io.sockets.emit('puntos', puntos);
-      io.sockets.emit('pregunta', preguntes[++quest]);
-    } else if (time2 === 0 && quest === preguntes.length - 1) {
-      io.sockets.emit('puntos', puntos);
-      io.emit("end", true);
+    } else if (time2 === 0) {
+      if (quest < preguntes.length - 1) {
+        time2 = 10;
+        puntos.sort((a, b) => b.punts - a.punts);
+        io.sockets.emit('puntos', puntos);
+        io.sockets.emit('pregunta', preguntes[++quest]);
+      } else {
+        io.sockets.emit('puntos', puntos);
+        io.emit("end", true);
+      }
     }
   }
 }
+
 
 
 httpServer.listen(5005, () => {
